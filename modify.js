@@ -49,9 +49,9 @@ function deleteRow(idNum){
   .finally(closeDB)
 }
 
-addUser({name: 'foobar', email: 'zeppo@gmail.com'});
+// addUser({name: 'foobar', email: 'zeppo@gmail.com'});
 // addUser({name: 'harpo', email: 'harpo@gmail.com'});
 
 //alterRow('10', 'James', 'james@gmail.com')
-//deleteRow(13);
+deleteRow(15);
 printTable();
